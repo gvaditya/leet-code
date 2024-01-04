@@ -14,11 +14,11 @@ class TwoSum {
                 }
             }
         }
-        return null;
+        return new int[]{};
     }
 
     public static void main(String args[]){
-        int[] response = twoSum(new int[]{3,3}, 6);
+        int[] response = twoSum(new int[]{1,3}, 6);
         if(response.length == 0)
             System.out.println("No pair");
         else
