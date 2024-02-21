@@ -45,7 +45,7 @@ public class LongestPalindromicSubstring{
             if(even.length()> output.length()){
                 output = even;
             }
-            System.out.println(output)
+            System.out.println(output);
         }
         return output;
     }
